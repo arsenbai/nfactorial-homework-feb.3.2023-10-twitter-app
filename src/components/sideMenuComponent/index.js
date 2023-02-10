@@ -28,7 +28,7 @@ function SideMenu() {
     ]
 
     return (
-        <div className="w-25 mt-3 mx-5 side-menu">
+        <div className="w-20 mt-3 mx-5 side-menu">
             {TWITTER_LOGO_SVG}
             {menu.map((item, idx) => <MenuItem item={item} key={idx} />)}
         </div>
