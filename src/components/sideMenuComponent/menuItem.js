@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function MenuItem({item}) {
 
@@ -6,7 +7,7 @@ export default function MenuItem({item}) {
         <div style={{width: 30, height: 30}}>
             {item.icon}
         </div>
-        <p className='mx-3' style={{fontSize: 20, color: 'black'}}>{item.name}</p>
+        <Link to={item.path} className='mx-3' style={{fontSize: 20, color: 'black', textDecoration: 'none'}}>{item.name}</Link>
     </div>
     )
 }

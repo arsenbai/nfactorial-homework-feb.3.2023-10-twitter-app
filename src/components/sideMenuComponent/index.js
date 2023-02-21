@@ -7,23 +7,28 @@ function SideMenu() {
     const menu = [
         { 
             icon: HOME_SVG,
-            name: 'Home'
+            name: 'Home',
+            path: "/"
         },
         { 
             icon: EXPLORE_SVG,
-            name: 'Explore'
+            name: 'Explore',
+            path: "/"
         },
         { 
             icon: NOTIFICATIONS_SVG,
-            name: 'Notifications'
+            name: 'Notifications',
+            path: "/notifications"
         },
         { 
             icon: MESSAGES_SVG,
-            name: 'Messages'
+            name: 'Messages',
+            path: "/"
         },
         { 
             icon: BOOKMARKS_SVG,
-            name: 'Bookmarks'
+            name: 'Bookmarks',
+            path: "/"
         },
     ]
 
